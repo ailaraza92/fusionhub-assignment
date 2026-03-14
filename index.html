@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -8,6 +9,8 @@
 <title>The Fusion Hub</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
@@ -25,7 +28,7 @@
 
 <ul class="nav-links" id="navLinks">
 
-<li><a href="#">Home</a></li>
+<li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#services">Services</a></li>
 <li><a href="#portfolio">Portfolio</a></li>
@@ -34,16 +37,16 @@
 </ul>
 
 <div class="menu-toggle" id="menuToggle">
-☰
+<i class="fas fa-bars"></i>
 </div>
 
 </nav>
 
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 
-<section class="hero">
+<section class="hero" id="home">
 
 <div class="hero-content">
 
@@ -51,7 +54,7 @@
 
 <p>Creative digital solutions for modern businesses</p>
 
-<a href="#" class="btn">Get Started</a>
+<a href="#services" class="btn">Get Started</a>
 
 </div>
 
@@ -61,12 +64,18 @@
 
 <section class="about" id="about">
 
-<h2>About Us</h2>
+<div class="container">
+
+<h2>About Fusion Hub</h2>
 
 <p>
-The Fusion Hub is a creative digital agency providing innovative solutions
-for modern businesses including web design, branding and digital strategy.
+The Fusion Hub is a modern digital agency providing innovative
+technology solutions for businesses. We specialize in web
+development, branding, and digital marketing to help
+companies grow in the digital world.
 </p>
+
+</div>
 
 </section>
 
@@ -76,21 +85,24 @@ for modern businesses including web design, branding and digital strategy.
 
 <h2>Our Services</h2>
 
-<div class="service-container">
+<div class="services-grid">
 
 <div class="service-card">
+<i class="fas fa-code"></i>
 <h3>Web Development</h3>
-<p>Modern responsive websites for your business.</p>
+<p>Professional websites and web applications for your business.</p>
 </div>
 
 <div class="service-card">
+<i class="fas fa-paint-brush"></i>
 <h3>Graphic Design</h3>
-<p>Creative branding and design solutions.</p>
+<p>Creative design solutions including branding and UI design.</p>
 </div>
 
 <div class="service-card">
+<i class="fas fa-chart-line"></i>
 <h3>Digital Marketing</h3>
-<p>Grow your business with online marketing.</p>
+<p>Grow your business through SEO and social media marketing.</p>
 </div>
 
 </div>
@@ -101,18 +113,16 @@ for modern businesses including web design, branding and digital strategy.
 
 <section class="portfolio" id="portfolio">
 
-<h2>Our Projects</h2>
+<h2>Our Work</h2>
 
-<div class="portfolio-container">
+<div class="portfolio-grid">
 
-<div class="project-card">
+<div class="portfolio-item">
 <img src="images/project1.jpg">
-<h3>Brand Identity</h3>
 </div>
 
-<div class="project-card">
+<div class="portfolio-item">
 <img src="images/project2.jpg">
-<h3>Creative Design</h3>
 </div>
 
 </div>
@@ -138,6 +148,8 @@ for modern businesses including web design, branding and digital strategy.
 </form>
 
 </section>
+
+<!-- FOOTER -->
 
 <footer>
 
