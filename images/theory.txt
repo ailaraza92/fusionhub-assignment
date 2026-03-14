@@ -1,0 +1,8 @@
+1. What is React?
+React allows developers to build websites using small reusable parts called components, which makes the development process easier and more organized.
+
+2. Why is JavaScript important for React?
+With JavaScript, React can handle events, update content on the page, and control how the user interface behaves.
+
+3. What is a component?
+Components help developers divide a website into smaller sections so the code becomes easier to manage and reuse.
