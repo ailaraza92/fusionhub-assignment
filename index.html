@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
@@ -10,30 +9,23 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
 <!-- NAVBAR -->
 
+<header>
+
 <nav class="navbar">
 
 <div class="logo">
-<img src="images/logo.png" alt="Fusion Hub">
+<img src="images/thefusionhublogo.jpg">
 </div>
 
-<div class="menu-toggle" id="menu-toggle">
-<i class="fas fa-bars"></i>
-</div>
+<ul class="nav-links" id="navLinks">
 
-<ul class="nav-links" id="nav-links">
-
-<li><a href="#hero">Home</a></li>
+<li><a href="#">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#services">Services</a></li>
 <li><a href="#portfolio">Portfolio</a></li>
@@ -41,57 +33,64 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 </ul>
 
+<div class="menu-toggle" id="menuToggle">
+☰
+</div>
+
 </nav>
 
-<!-- HERO -->
+</header>
 
-<section id="hero" class="hero">
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="hero-content">
 
 <h1>Where Technology Meets Innovation</h1>
 
 <p>Creative digital solutions for modern businesses</p>
 
-<button>Get Started</button>
+<a href="#" class="btn">Get Started</a>
+
+</div>
 
 </section>
 
 <!-- ABOUT -->
 
-<section id="about" class="about">
+<section class="about" id="about">
 
-<h2>About The Fusion Hub</h2>
+<h2>About Us</h2>
 
 <p>
-The Fusion Hub is a digital services agency helping brands grow online
-through web development, design and digital marketing solutions.
+The Fusion Hub is a creative digital agency providing innovative solutions
+for modern businesses including web design, branding and digital strategy.
 </p>
 
 </section>
 
 <!-- SERVICES -->
 
-<section id="services" class="services">
+<section class="services" id="services">
 
 <h2>Our Services</h2>
 
-<div class="services-container">
+<div class="service-container">
 
 <div class="service-card">
-<i class="fas fa-code"></i>
 <h3>Web Development</h3>
-<p>Modern responsive websites for businesses.</p>
+<p>Modern responsive websites for your business.</p>
 </div>
 
 <div class="service-card">
-<i class="fas fa-pen-nib"></i>
-<h3>UI / UX Design</h3>
-<p>Beautiful and user friendly designs.</p>
+<h3>Graphic Design</h3>
+<p>Creative branding and design solutions.</p>
 </div>
 
 <div class="service-card">
-<i class="fas fa-chart-line"></i>
 <h3>Digital Marketing</h3>
-<p>Grow your brand with modern marketing.</p>
+<p>Grow your business with online marketing.</p>
 </div>
 
 </div>
@@ -100,16 +99,21 @@ through web development, design and digital marketing solutions.
 
 <!-- PORTFOLIO -->
 
-<section id="portfolio" class="portfolio">
+<section class="portfolio" id="portfolio">
 
-<h2>Our Work</h2>
+<h2>Our Projects</h2>
 
-<div class="portfolio-grid">
+<div class="portfolio-container">
 
-<img src="https://picsum.photos/400/300?1">
-<img src="https://picsum.photos/400/300?2">
-<img src="https://picsum.photos/400/300?3">
-<img src="https://picsum.photos/400/300?4">
+<div class="project-card">
+<img src="images/project1.jpg">
+<h3>Brand Identity</h3>
+</div>
+
+<div class="project-card">
+<img src="images/project2.jpg">
+<h3>Creative Design</h3>
+</div>
 
 </div>
 
@@ -117,7 +121,7 @@ through web development, design and digital marketing solutions.
 
 <!-- CONTACT -->
 
-<section id="contact" class="contact">
+<section class="contact" id="contact">
 
 <h2>Contact Us</h2>
 
@@ -135,15 +139,11 @@ through web development, design and digital marketing solutions.
 
 </section>
 
-<!-- FOOTER -->
-
 <footer>
 
-<p>© 2026 The Fusion Hub | All Rights Reserved</p>
+<p>© 2025 The Fusion Hub. All Rights Reserved.</p>
 
 </footer>
-
-<button id="topBtn">↑</button>
 
 <script src="script.js"></script>
 
